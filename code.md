@@ -2,20 +2,28 @@
 
 
 user_input = 'random'
+
 data = []
 
 **#define a menu function to be called**
 
 
 def show_menu():
+
     print('Menu: ')
+    
     print('1. Add an item')
+    
     print('2. Mark as done')
+    
     print('3. View items')
+    
     print('4. Exit')
 
 while user_input != '4':
+
     show_menu()
+    
     user_input = input('Enter your choice: ')
 
     if user_input == '1':
