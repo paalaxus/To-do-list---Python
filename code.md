@@ -1,8 +1,12 @@
 #to do list
+
+
 user_input = 'random'
 data = []
 
 **#define a menu function to be called**
+
+
 def show_menu():
     print('Menu: ')
     print('1. Add an item')
@@ -11,8 +15,6 @@ def show_menu():
     print('4. Exit')
 
 while user_input != '4':
-
-
     show_menu()
     user_input = input('Enter your choice: ')
 
@@ -44,4 +46,5 @@ while user_input != '4':
 
 
 #note
+
 #the ** are just to make the lines bold in the md file
